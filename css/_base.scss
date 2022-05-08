@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+   list-style-type: none;
+}
+ul{
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+img{
+    max-width: 100%;
+}
+.blog{
+    img{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,65 @@
+.carousel-inner{
+    margin-top: 70px;
+    img{
+        height: 400px;
+    }
+}
+.caption{
+    text-align: end;
+    color: #000;
+    bottom: 14rem;
+    position: absolute;
+    right: 112px;
+    top: 48px;
+    span {
+        @include style-lines;
+    }
+    p {
+        margin: 0;
+        padding: 0 10px;
+    }
+} 
+
+.container{ 
+    span{
+        @include style-lines;
+        margin: 0 10px;  
+    }
+}
+.strike{
+    color: #fa00c4;
+}
+.products{
+    img{
+        position: relative;
+    }
+    .discount{
+        @include New;
+    }
+}
+.blog{
+    
+    .my-btn{
+        @include buttons;
+    }
+    .blog-info{
+        padding: 6px 8px;
+        background-color: #ffffff;
+        text-align: center;
+        position: relative;
+        bottom: 14%;
+        margin: 0 20px;
+    }
+}
+@media (max-width: 768px){
+    .carousel-inner{
+        margin-top: 0;
+        img{
+            height: 300px;
+        }
+    } 
+    .caption{
+        bottom: 5rem;
+        text-align: center;
+    }
+}
